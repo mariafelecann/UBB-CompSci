@@ -1,0 +1,74 @@
+﻿  tests.cpp
+C:\Users\Maria\Downloads\traiascaberea\dynamic_vector.h(27,40): warning C4661: 'DynamicVector<Tutorials>::DynamicVector(const DynamicVector<Tutorials> &)': no suitable definition provided for explicit template instantiation request
+C:\Users\Maria\Downloads\traiascaberea\dynamic_vector.h(15,2): message : see declaration of 'DynamicVector<Tutorials>::DynamicVector'
+C:\Users\Maria\Downloads\traiascaberea\dynamic_vector.h(27,40): warning C4661: 'DynamicVector<Tutorials>::DynamicVector(int)': no suitable definition provided for explicit template instantiation request
+C:\Users\Maria\Downloads\traiascaberea\dynamic_vector.h(12,2): message : see declaration of 'DynamicVector<Tutorials>::DynamicVector'
+C:\Users\Maria\Downloads\traiascaberea\dynamic_vector.h(27,40): warning C4661: 'DynamicVector<Tutorials>::~DynamicVector(void)': no suitable definition provided for explicit template instantiation request
+C:\Users\Maria\Downloads\traiascaberea\dynamic_vector.h(13,3): message : see declaration of 'DynamicVector<Tutorials>::~DynamicVector'
+C:\Users\Maria\Downloads\traiascaberea\dynamic_vector.h(27,40): warning C4661: 'DynamicVector<Tutorials> &DynamicVector<Tutorials>::operator =(const DynamicVector<Tutorials> &)': no suitable definition provided for explicit template instantiation request
+C:\Users\Maria\Downloads\traiascaberea\dynamic_vector.h(16,17): message : see declaration of 'DynamicVector<Tutorials>::operator ='
+C:\Users\Maria\Downloads\traiascaberea\dynamic_vector.h(27,40): warning C4661: 'void DynamicVector<Tutorials>::add(const T &)': no suitable definition provided for explicit template instantiation request
+          with
+          [
+              T=Tutorials
+          ]
+C:\Users\Maria\Downloads\traiascaberea\dynamic_vector.h(18,7): message : see declaration of 'DynamicVector<Tutorials>::add'
+C:\Users\Maria\Downloads\traiascaberea\dynamic_vector.h(27,40): warning C4661: 'void DynamicVector<Tutorials>::delete_(const T &)': no suitable definition provided for explicit template instantiation request
+          with
+          [
+              T=Tutorials
+          ]
+C:\Users\Maria\Downloads\traiascaberea\dynamic_vector.h(19,7): message : see declaration of 'DynamicVector<Tutorials>::delete_'
+C:\Users\Maria\Downloads\traiascaberea\dynamic_vector.h(27,40): warning C4661: 'void DynamicVector<Tutorials>::update(const T &)': no suitable definition provided for explicit template instantiation request
+          with
+          [
+              T=Tutorials
+          ]
+C:\Users\Maria\Downloads\traiascaberea\dynamic_vector.h(20,7): message : see declaration of 'DynamicVector<Tutorials>::update'
+C:\Users\Maria\Downloads\traiascaberea\dynamic_vector.h(27,40): warning C4661: 'void DynamicVector<Tutorials>::resize(void)': no suitable definition provided for explicit template instantiation request
+C:\Users\Maria\Downloads\traiascaberea\dynamic_vector.h(21,7): message : see declaration of 'DynamicVector<Tutorials>::resize'
+C:\Users\Maria\Downloads\traiascaberea\dynamic_vector.h(27,40): warning C4661: 'T DynamicVector<T>::get_element(int) const': no suitable definition provided for explicit template instantiation request
+          with
+          [
+              T=Tutorials
+          ]
+C:\Users\Maria\Downloads\traiascaberea\dynamic_vector.h(23,4): message : see declaration of 'DynamicVector<Tutorials>::get_element'
+C:\Users\Maria\Downloads\traiascaberea\dynamic_vector.h(27,40): warning C4661: 'int DynamicVector<Tutorials>::get_size_dynamic_vector(void) const': no suitable definition provided for explicit template instantiation request
+C:\Users\Maria\Downloads\traiascaberea\dynamic_vector.h(24,6): message : see declaration of 'DynamicVector<Tutorials>::get_size_dynamic_vector'
+C:\Users\Maria\Downloads\traiascaberea\tests.cpp(9,30): warning C4661: 'DynamicVector<Tutorials>::DynamicVector(const DynamicVector<Tutorials> &)': no suitable definition provided for explicit template instantiation request
+C:\Users\Maria\Downloads\traiascaberea\dynamic_vector.h(15,2): message : see declaration of 'DynamicVector<Tutorials>::DynamicVector'
+C:\Users\Maria\Downloads\traiascaberea\tests.cpp(9,30): warning C4661: 'DynamicVector<Tutorials>::DynamicVector(int)': no suitable definition provided for explicit template instantiation request
+C:\Users\Maria\Downloads\traiascaberea\dynamic_vector.h(12,2): message : see declaration of 'DynamicVector<Tutorials>::DynamicVector'
+C:\Users\Maria\Downloads\traiascaberea\tests.cpp(9,30): warning C4661: 'DynamicVector<Tutorials>::~DynamicVector(void)': no suitable definition provided for explicit template instantiation request
+C:\Users\Maria\Downloads\traiascaberea\dynamic_vector.h(13,3): message : see declaration of 'DynamicVector<Tutorials>::~DynamicVector'
+C:\Users\Maria\Downloads\traiascaberea\tests.cpp(9,30): warning C4661: 'DynamicVector<Tutorials> &DynamicVector<Tutorials>::operator =(const DynamicVector<Tutorials> &)': no suitable definition provided for explicit template instantiation request
+C:\Users\Maria\Downloads\traiascaberea\dynamic_vector.h(16,17): message : see declaration of 'DynamicVector<Tutorials>::operator ='
+C:\Users\Maria\Downloads\traiascaberea\tests.cpp(9,30): warning C4661: 'void DynamicVector<Tutorials>::add(const T &)': no suitable definition provided for explicit template instantiation request
+          with
+          [
+              T=Tutorials
+          ]
+C:\Users\Maria\Downloads\traiascaberea\dynamic_vector.h(18,7): message : see declaration of 'DynamicVector<Tutorials>::add'
+C:\Users\Maria\Downloads\traiascaberea\tests.cpp(9,30): warning C4661: 'void DynamicVector<Tutorials>::delete_(const T &)': no suitable definition provided for explicit template instantiation request
+          with
+          [
+              T=Tutorials
+          ]
+C:\Users\Maria\Downloads\traiascaberea\dynamic_vector.h(19,7): message : see declaration of 'DynamicVector<Tutorials>::delete_'
+C:\Users\Maria\Downloads\traiascaberea\tests.cpp(9,30): warning C4661: 'void DynamicVector<Tutorials>::update(const T &)': no suitable definition provided for explicit template instantiation request
+          with
+          [
+              T=Tutorials
+          ]
+C:\Users\Maria\Downloads\traiascaberea\dynamic_vector.h(20,7): message : see declaration of 'DynamicVector<Tutorials>::update'
+C:\Users\Maria\Downloads\traiascaberea\tests.cpp(9,30): warning C4661: 'void DynamicVector<Tutorials>::resize(void)': no suitable definition provided for explicit template instantiation request
+C:\Users\Maria\Downloads\traiascaberea\dynamic_vector.h(21,7): message : see declaration of 'DynamicVector<Tutorials>::resize'
+C:\Users\Maria\Downloads\traiascaberea\tests.cpp(9,30): warning C4661: 'T DynamicVector<T>::get_element(int) const': no suitable definition provided for explicit template instantiation request
+          with
+          [
+              T=Tutorials
+          ]
+C:\Users\Maria\Downloads\traiascaberea\dynamic_vector.h(23,4): message : see declaration of 'DynamicVector<Tutorials>::get_element'
+C:\Users\Maria\Downloads\traiascaberea\tests.cpp(9,30): warning C4661: 'int DynamicVector<Tutorials>::get_size_dynamic_vector(void) const': no suitable definition provided for explicit template instantiation request
+C:\Users\Maria\Downloads\traiascaberea\dynamic_vector.h(24,6): message : see declaration of 'DynamicVector<Tutorials>::get_size_dynamic_vector'
+  a45.vcxproj -> C:\Users\Maria\Downloads\traiascaberea\te_rog_mergi\x64\Debug\a45.exe

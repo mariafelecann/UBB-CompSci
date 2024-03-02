@@ -1,0 +1,17 @@
+﻿  file_format.cpp
+  main.cpp
+  repository.cpp
+  service.cpp
+C:\Users\Maria\Desktop\ubb\oop\a7_vector\a7_vector\service.cpp(17,43): warning C4101: 'error': unreferenced local variable
+C:\Users\Maria\Desktop\ubb\oop\a7_vector\a7_vector\service.cpp(28,42): warning C4101: 'error': unreferenced local variable
+C:\Users\Maria\Desktop\ubb\oop\a7_vector\a7_vector\service.cpp(39,42): warning C4101: 'error': unreferenced local variable
+  tests.cpp
+  tutorial_validator.cpp
+  tutorial_validator.h
+  tutorials.cpp
+  ui.cpp
+C:\Users\Maria\Desktop\ubb\oop\a7_vector\a7_vector\ui.cpp(79,42): warning C4101: 'number_of_likes': unreferenced local variable
+C:\Users\Maria\Desktop\ubb\oop\a7_vector\a7_vector\ui.cpp(79,24): warning C4101: 'duration_seconds': unreferenced local variable
+C:\Users\Maria\Desktop\ubb\oop\a7_vector\a7_vector\ui.cpp(79,6): warning C4101: 'duration_minutes': unreferenced local variable
+  Generating Code...
+  a7_vector.vcxproj -> C:\Users\Maria\Desktop\ubb\oop\a7_vector\x64\Debug\a7_vector.exe

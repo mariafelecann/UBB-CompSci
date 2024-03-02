@@ -1,0 +1,21 @@
+[2023-05-05 15:11:44] [info] Start Program:
+Path:"C:\Users\Maria\Desktop\ubb\oop\a6_bun\a6_bun\x64\Debug\incerc.exe"
+Arguments:
+Working directory: "C:\Users\Maria\Desktop\ubb\oop\a6_bun\a6_bun\"
+Modules: Selected: C:\Users\Maria\Desktop\ubb\oop\a6_bun\a6_bun\x64\Debug\incerc.exe Excluded: 
+Sources: Selected: C:\Users\Maria\Desktop\ubb\oop\a6_bun\a6_bun Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\Maria\AppData\Local\Temp\tee5lm2v.lak 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2023-05-05 15:11:44] [info] Module: C:\Users\Maria\Desktop\ubb\oop\a6_bun\a6_bun\x64\Debug\incerc.exe is selected because it matches selected pattern: C:\Users\Maria\Desktop\ubb\oop\a6_bun\a6_bun\x64\Debug\incerc.exe
+[2023-05-05 15:11:44] [info] ----------------------------------------------------
+[2023-05-05 15:11:44] [info] Coverage binary generated in file: C:\Users\Maria\AppData\Local\Temp\tee5lm2v.lak
+[2023-05-05 15:11:44] [info] ----------------------------------------------------

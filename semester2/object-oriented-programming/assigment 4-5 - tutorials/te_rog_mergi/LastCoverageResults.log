@@ -1,0 +1,21 @@
+[2023-04-06 10:08:12] [info] Start Program:
+Path:"C:\Users\Maria\Downloads\traiascaberea\te_rog_mergi\x64\Debug\a45.exe"
+Arguments:
+Working directory: "C:\Users\Maria\Downloads\traiascaberea\te_rog_mergi\"
+Modules: Selected: C:\Users\Maria\Downloads\traiascaberea\te_rog_mergi\x64\Debug\a45.exe Excluded: 
+Sources: Selected: C:\Users\Maria\Downloads\traiascaberea Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: Binary C:\Users\Maria\AppData\Local\Temp\l0hv1gvt.trt 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2023-04-06 10:08:12] [info] Module: C:\Users\Maria\Downloads\traiascaberea\te_rog_mergi\x64\Debug\a45.exe is selected because it matches selected pattern: C:\Users\Maria\Downloads\traiascaberea\te_rog_mergi\x64\Debug\a45.exe
+[2023-04-06 10:08:12] [info] ----------------------------------------------------
+[2023-04-06 10:08:12] [info] Coverage binary generated in file: C:\Users\Maria\AppData\Local\Temp\l0hv1gvt.trt
+[2023-04-06 10:08:12] [info] ----------------------------------------------------
