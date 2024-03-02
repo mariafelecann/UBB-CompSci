@@ -1,7 +1,7 @@
 
 # Welcome to the Obstruction Game! 🎉
 
-In this game, you'll be pitted against an AI opponent as you take turns marking squares on a friendly grid. The goal? To outsmart the AI and emerge victorious!
+In this game, you'll be pitted against an AI opponent as you take turns marking squares on a grid. The goal? To outsmart the AI and emerge victorious!
 
 Players take turns in marking squares on a grid. The first player unable to move loses.The game is played on a grid; One player is 'O' and the other is 'X'.
 
