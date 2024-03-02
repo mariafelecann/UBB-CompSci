@@ -1,0 +1,89 @@
+3 a.)
+
+(defun INSERT_EVEN (given_list element)
+    (cond
+        ((null given_list) nil)
+        ((null (cdr given_list)) (list (car given_list)))
+        (t(cons (car given_list) (cons element (INSERT_EVEN (cddr given_list) element) ) ) )
+    )
+)
+
+(print (INSERT_EVEN '(1 2 3 4 5 6 7 8 9) 'A ) )
+
+
+
+b.)
+
+(defun EXTRACT_ELEMENTS (expression)
+	(cond
+        ( (null expression) nil)
+		( (atom ( car expression) ) (cons (car expression) (EXTRACT_ELEMENTS (cdr expression))) )
+		( t ( append (EXTRACT_ELEMENTS (car expression) ) (EXTRACT_ELEMENTS (cdr expression))))
+	)
+)
+
+(defun REVERSE_LIST (given_list)
+    (cond
+        ( (null given_list) nil)
+        ( (atom given_list) (list given_list))
+        ( t ( append (REVERSE_LIST (cdr given_list)) (list(car given_list))))
+    )
+)
+
+(defun EXTRACT_AND_REVERSE (original_list)
+    (let ((extracted-list (EXTRACT_ELEMENTS original_list)))
+    (REVERSE_LIST extracted-list)))
+
+(print (EXTRACT_AND_REVERSE '(((A B) C) (D E)) ) )
+
+
+
+c.)
+
+
+
+(defun EXTRACT_ELEMENTS (expression)
+	(cond
+        ( (null expression) nil)
+		( (atom ( car expression) ) (cons (car expression) (EXTRACT_ELEMENTS (cdr expression))) )
+		( t ( append (EXTRACT_ELEMENTS (car expression) ) (EXTRACT_ELEMENTS (cdr expression))))
+	)
+)
+
+(defun MY_GCD ( a b ) 
+    (cond
+        ( (= b 0)  a)
+        ( (> b a) ( MY_GCD a (mod b a)))
+        ( t ( MY_GCD b ( mod a b ) ) )
+    )
+ )
+
+(defun MY_LIST_GCD ( head tail )
+    (cond 
+        ( (null tail) (list head))
+        ( t  (MY_LIST_GCD (MY_GCD head (car tail)) (cdr tail)) )
+    )
+)
+
+(defun FIND_GCD (original_list)
+    (let ((extracted_list (EXTRACT_ELEMENTS original_list)))
+    (MY_LIST_GCD (car extracted_list) (cdr extracted_list)))
+)
+(print (FIND_GCD '((12 36) (18 (48 30)) 42)))
+
+
+d.)
+
+(defun COUNT_OCCURRENCES (element lst)
+  (cond
+    ((null lst) 0) ; Base case: empty list, no occurrences
+    ((atom (car lst)) 
+     (+ (if (eq (car lst) element) 1 0)
+        (count-occurrences element (cdr lst))))
+    (t 
+     (+ (count-occurrences element (car lst))  
+        (count-occurrences element (cdr lst)))))) 
+
+
+(print (COUNT_OCCURRENCES 'A '(((A B) C) (A D) E))) 
+

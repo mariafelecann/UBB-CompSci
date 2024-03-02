@@ -1,0 +1,10 @@
+(defun tree-contains-node (node tree)
+  (or (atom tree) ;if any of the conditions are true, the function returns T and stops execution
+      (eql node (car tree))
+      (some #'identity  ;some =checking if any of the results are true. identity= wraps the results bc 'some' expects a func as arg
+            (mapcar #'(lambda (subtree) (tree-contains-node node subtree)) (cdr tree)))))
+
+(let ((tree '(a (b (c)) (d) (E (f)))))
+  (if (tree-contains-node 'b tree)
+      (format t "the node is present in the tree.")
+      (format t "the node is not present in the tree.")))
