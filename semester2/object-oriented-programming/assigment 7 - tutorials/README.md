@@ -3,7 +3,7 @@
 
 ## Overview
 
-This project is a Tutorial Management System designed to help users manage their tutorial collections efficiently. It allows users to add, delete, update, and view tutorials, as well as manage a watchlist of favorite tutorials.
+This c++ project is a Tutorial Management System designed to help users manage their tutorial collections efficiently. It allows users to add, delete, update, and view tutorials, as well as manage a watchlist of favorite tutorials.
 
 ## Features
 
