@@ -1,7 +1,5 @@
-#defapt cred ca ii problema 2
-#mereu trebe load pkg statistics
 
-#da ii problema 2a.)
+problem 2a.)
 
 N = input("input the number of simulations p --> ");
 
@@ -17,6 +15,5 @@ K = 0:N;
 P_K = binopdf(K,N,p)
 U_x = unique(X)
 
-#clear enter clc enter sa clear up the place idk
 
 
