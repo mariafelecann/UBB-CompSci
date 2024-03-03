@@ -1,9 +1,9 @@
 N = input("enter the number of simulations: ");
 #here we count the succeses until we find the first success
 p = input("probability 0<p<1 : ");
-#we must simulate the nr of trials?? idk
+#we must simulate the nr of trials
 X=zeros(1,N);
-#we have N positions to count the failures and succeses?? cred
+
 for(i=1:N)
   X(i) = 0;
   while rand() >= p
