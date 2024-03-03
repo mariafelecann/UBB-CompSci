@@ -11,19 +11,13 @@ n = length(X);
 #the alternative hypotheses h1: niu < 8.5 (the efficiency
 #standard is not met)
 
-#this is a left tailed test for niu!!
-
-#we need to add this interpretetion at each problem
-#that we solve ^
-
+#this is a left tailed test for niu
 #this is a left tailed test for the mean when sigma
 # is known
 
 sigma = 5;
 m0 = 8.5;
 [h,p,ci,zval] = ztest(X, m0, sigma, "alpha", alpha, "tail", "left");
-#acolo unde i alpha ca string si dupa efectiv variabila ii pt ca trebe sa punem pair de name of variable si value
-#in loc de "left" mai putem folosi functia asta in probleme si cu "right" sau "both"
 
 z = norminv(alpha,0,1);
 RR = [-inf z];
@@ -40,6 +34,4 @@ endif
 printf("the rejections is (%4.4f , %4.4f) \n", RR);
 printf("procetage of the statistics is %4.4f \n", zval);
 printf("the pvalue of teh test is %4.4f \n", p);
-#trebe sa scriem comentarii la fiecare linie de cod
-#sa descarcam seminariile si cursurile ca putem sa ne uitam la ele da nu online
 
