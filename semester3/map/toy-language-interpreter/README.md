@@ -1,7 +1,7 @@
 
 # Toy Language Interpreter
 
-This java project implements a toy language interpreter with a JavaFX graphic user interface (GUI). The interpreter supports basic programming constructs such as variable declarations, assignments, arithmetic expressions, conditional statements, loops, file operations, heap manipulation, semaphore handling, and fork statements for concurrent execution.
+This java project implements a toy language interpreter with a JavaFX graphic user interface . The interpreter supports basic programming constructs such as variable declarations, assignments, arithmetic expressions, conditional statements, loops, file operations, heap manipulation, semaphore handling, and fork statements for concurrent execution.
 
 ## Features
 - Syntax: Supports a simple syntax for programming constructs including variable declarations, assignments, conditionals, loops, and more.
