@@ -1,0 +1,14 @@
+C:\Users\maria\Documents\ubb\sem 3\software engineering\Laboratory1\bin\Debug\net8.0\Laboratory1.exe
+C:\Users\maria\Documents\ubb\sem 3\software engineering\Laboratory1\bin\Debug\net8.0\Laboratory1.deps.json
+C:\Users\maria\Documents\ubb\sem 3\software engineering\Laboratory1\bin\Debug\net8.0\Laboratory1.runtimeconfig.json
+C:\Users\maria\Documents\ubb\sem 3\software engineering\Laboratory1\bin\Debug\net8.0\Laboratory1.dll
+C:\Users\maria\Documents\ubb\sem 3\software engineering\Laboratory1\bin\Debug\net8.0\Laboratory1.pdb
+C:\Users\maria\Documents\ubb\sem 3\software engineering\Laboratory1\obj\Debug\net8.0\Laboratory1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\maria\Documents\ubb\sem 3\software engineering\Laboratory1\obj\Debug\net8.0\Laboratory1.AssemblyInfoInputs.cache
+C:\Users\maria\Documents\ubb\sem 3\software engineering\Laboratory1\obj\Debug\net8.0\Laboratory1.AssemblyInfo.cs
+C:\Users\maria\Documents\ubb\sem 3\software engineering\Laboratory1\obj\Debug\net8.0\Laboratory1.csproj.CoreCompileInputs.cache
+C:\Users\maria\Documents\ubb\sem 3\software engineering\Laboratory1\obj\Debug\net8.0\Laboratory1.dll
+C:\Users\maria\Documents\ubb\sem 3\software engineering\Laboratory1\obj\Debug\net8.0\refint\Laboratory1.dll
+C:\Users\maria\Documents\ubb\sem 3\software engineering\Laboratory1\obj\Debug\net8.0\Laboratory1.pdb
+C:\Users\maria\Documents\ubb\sem 3\software engineering\Laboratory1\obj\Debug\net8.0\Laboratory1.genruntimeconfig.cache
+C:\Users\maria\Documents\ubb\sem 3\software engineering\Laboratory1\obj\Debug\net8.0\ref\Laboratory1.dll
