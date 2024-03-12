@@ -1,0 +1,7 @@
+cuda de pe pytorch.org alea gen 11.8 
+ceva cu graphic card
+la task manager a doua pagina la gpu unde screi 3d daca selectam cuda vedem cv?
+din anacobda:
+anaconda navigator:
+cautam pillow si instalam
+si le instalam pe toate care ne trebe pt exemple
