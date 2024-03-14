@@ -1,0 +1,38 @@
+body {
+  background-color: aliceblue;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.popup-info {
+  display: none;
+  background-color: #bc8787; /*
+  position: absolute;
+  z-index: 1;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  
+  top: 100%;
+  left: 0;
+  width: 200px;*/
+}
+
+.person-image:hover + .popup-info {
+  display: block;
+}
