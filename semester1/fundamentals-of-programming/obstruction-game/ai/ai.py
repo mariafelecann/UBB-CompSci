@@ -7,7 +7,7 @@ class AI:
     def __init__(self, board):
         self.__board = board
         self.__valid = ValidatePoint()
-        self.__startodd = False  #This tells us whether the AI is going to start on an odd board
+        self.__startodd = False  
 
     # GETTERS AND SETTERS
 
