@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>lab 4</title>
+  </head>
+  <body>
+    <input type="text" id="arrayInput" />
+    <button onclick="handleInput()">Submit Array</button>
+    <div id="tableContainer" class="table"></div>
+    <div id="errorMessage" style="color: red"></div>
+  </body>
+  <script>
+    function convertStringToNumber(array) {
+      var numberArray = [];
+      length = array.length;
+      for (i = 0; i < length; i++) {
+        numberArray.push(parseInt(array[i]));
+      }
+      return numberArray;
+    }
+    function numericSortFunction(array) {
+      var nrArray = convertStringToNumber(array);
+      nrArray.sort(function (a, b) {
+        return a - b;
+      });
+      return nrArray;
+    }
+    function handleInput() {
+      var input = document.getElementById("arrayInput");
+      var inputString = input.value.trim();
+      var inputArray = inputString.split(/\s+/);
+      var sortedArray = numericSortFunction(inputArray);
+
+      var isAllNumbers = inputArray.every(function (element) {
+        return !isNaN(element);
+      });
+
+      if (!isAllNumbers) {
+        document.getElementById("errorMessage").textContent =
+          "Please enter numbers only.";
+        return;
+      }
+
+      var tableHTML = "<table>";
+      for (i = 0; i < sortedArray.length; i += 5) {
+        tableHTML += "<tr>";
+        for (j = 0; j < 5; j++) {
+          if (j + i < sortedArray.length) {
+            tableHTML += "<td>" + sortedArray[i + j] + "</td>";
+          } else tableHTML += "<td></td>";
+        }
+        tableHTML += "</tr>";
+      }
+      tableHTML += "</table>";
+      document.getElementById("tableContainer").innerHTML = tableHTML;
+      document.getElementById("errorMessage").textContent = "";
+    }
+  </script>
+</html>
