@@ -5,6 +5,9 @@ Your favorite music journal where you can keep track of all the songs you loved 
 
 ## Key Features:
  - Easily navigate through your collection with a user-friendly table layout, showcasing all your beloved songs.
+ -  Update with new songs every 20 seconds using web sockets!
+ -  Generate credible data using the faker library.
+ -  Get messages for when the internet or the server is down!
  -  Visualize your favorite songs with an intuitive diagram, providing insight into your musical preferences.
  -  Stay organized with advanced features like sorting and pagination, with an efficient expressjs backend implementation, making it effortless to find the perfect song.
 - Seamlessly perform CRUD operations with an backend implementation, ensuring smooth data management.
