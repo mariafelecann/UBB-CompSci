@@ -82,20 +82,7 @@ public class ProgramState {
         this.originalProgram = originalProgram;
     }
 
-    /*
-    public ProgramState(MyIStack<IStmt> stk, MyIDictionary<String, Value> symtbl, MyIList<Value>
-            ot, IStmt prg, MyIDictionary<StringValue, BufferedReader> ft, MyIHeap<Integer, Value> h) {
-        exeStack = stk;
-        symTable = symtbl;
-        out = ot;
-        fileTable = ft;
-        heap = h;
-        id = getNextId();
-        //originalProgram=deepCopy(prg);//recreate the entire original prg
-        stk.push(prg);
-    }
-
-     */
+    
     public MyIDictionary<String, Type> getTypeEnvironment()
     {
         return typeEnvironment;
