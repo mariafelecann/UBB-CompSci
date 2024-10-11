@@ -1,0 +1,25 @@
+program ::= declaration | complicatedStatement
+declaration ::= identifier ":" type
+statementList ::= statement | statement ";" statementList
+statement ::= simpleStatement | complicatedStatement
+
+complicatedStatement ::= ifStatement | forStatement | functionStatement
+simpleStatement ::= assignStatement | ioStatement
+assignStatement ::= identifier "=" expression
+ioStatement ::= "read" "(" identifier ")" | "write" "(" identifier ")"
+ifStatement ::= "if" "~" condition "~" "[" statementList "]" ["else" "[" statementList "]"]
+forStatement ::= "for" "(" condition ";" condition ";" condition ")" "[" statementList "]"
+
+functionStatement ::= "function" identifier "(" argumentsList ")" "[" statementList "result" "->" resultValue "]"
+argumentsList ::= identifier ":" type | identifier ":" type "," argumentsList
+resultValue ::= "true" | "false" | expression
+
+condition ::= expression relation expression
+
+expression ::= expression "+" term | expression "-" term | term
+term ::= term "*" factor | term "/" factor | factor
+factor ::= identifier | const | "(" expression ")"
+
+relation ::= ">" | "<" | "==" | ">=" | "<=" | "<>"
+const ::= "number" | "word" | "character"
+type ::= "number" | "word" | "character" | "struct"
