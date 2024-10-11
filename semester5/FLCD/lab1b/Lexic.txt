@@ -1,0 +1,41 @@
+1. alphabet:
+    - upper letters (A-Z)
+    - lower letters (a-z)
+    - decimal digits
+2. keywords
+   - function, if, else, for, result, number, word, letter, character, struct, read, write
+
+3. operators
+   - arithmetic operators: +, -, *, /, %
+   - comparison operators: >, <, ==
+   - logical operators: and, or
+   - assignment operator: =
+
+4. separators
+   - [ ] ( ) ; (space)
+
+5. identifiers
+   - names of variables, functions, no more than 256 characters
+   = sequence of letters & digits, first character is a letter
+    identifier ::= letter | letter{letter}{digit}
+    letter ::= "A" | "B" | . ..| "Z"
+    digit ::= "0" | "1" |...| "9"
+
+
+6. constants
+   - number - rule:
+        constnumber:="number"
+        number:="0"|["+"|"-"]nonzerodigit["0"|nonzerodigit]
+        nonzerodigit="1"|...|"9"
+
+   - character constants
+        constchar:="character"
+        character::='letter'|'digit'
+
+    - word constants
+        constword:="word"
+        word:=character{word}
+    
+7. data types
+    - simple data types: number, word
+    - user defined data types: struct
