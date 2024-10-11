@@ -1,0 +1,104 @@
+p1 -> verifies if a nr is prime
+p2 -> computes the sum of first n numbers
+p3 -> finds the maximum of 3 numbers
+p1err -> computes the sum of 2 numbers
+
+
+*language rules*:
+
+if : condition statement, should be folowed by
+      ~condition~
+    [
+        statements 
+    ] 
+
+else : follows if, and is followed by 
+    
+     [
+        statements
+     ]
+
+for : loop statement, should be follwed by
+    (condition;condition;...condition)
+    [
+
+    ]
+
+function : defines a function, should be followed by
+    the name of the function (arguments)
+    [
+        statements
+        result -> should be followed 
+                by the result ("true" or "false", or number)
+    ]
+
+arithmetic operators: + - = % / *
+comparison operators: > < ==
+logical operators: and , or
+types of variables: integer , float
+
+p1:
+
+function p1 (integer x)
+[
+    if ~x<2 or x%2==0~
+    [
+        result false
+    ]
+    else
+    [
+        for(integer i=1;i*i<=x;i++)
+        [
+            if ~x%i==0~
+            [
+                result false
+            ]
+        ]
+    ]
+    result true
+]
+
+p1err:
+
+function p1err ((integer a, integer b) #1st mistake
+[
+    resultt a+b #2nd mistake
+]
+
+p2:
+
+function p2 (integer n)
+[
+    integer sum = 0
+    for(integer i=1; i<=n;i++)
+    [
+        sum = sum+i
+    ]
+    result sum
+]
+
+p3:
+
+function p3 (integer a, integer b, integer c)
+[
+    integer maximum_value = 0
+    if ~a >= b and a >= c~
+    [
+        maximum_value = a
+    ]
+    else
+        [
+            if~b >= a and b >= c~
+            [
+                maximum_value = b
+            ]
+            else
+            [
+                maximum_value = c 
+            ]
+        ]
+    
+    result maximum_value
+]
+
+
