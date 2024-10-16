@@ -1,0 +1,29 @@
+Consistency check at 16/10/2024 18:49:33
+Account 0
+Balance in account: 927
+Balance computed with logs: 927
+Account 1
+Balance in account: 730
+Balance computed with logs: 730
+Account 2
+Balance in account: 938
+Balance computed with logs: 938
+Account 3
+Balance in account: 754
+Balance computed with logs: 754
+Account 4
+Balance in account: 869
+Balance computed with logs: 869
+Account 5
+Balance in account: 702
+Balance computed with logs: 702
+Account 6
+Balance in account: 630
+Balance computed with logs: 630
+Account 7
+Balance in account: 850
+Balance computed with logs: 850
+Account 8
+Balance in account: 800
+Balance computed with logs: 800
+Consistency check passed!

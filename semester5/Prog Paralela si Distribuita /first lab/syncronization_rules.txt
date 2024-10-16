@@ -1,0 +1,16 @@
+﻿Synchronization Rules
+
+- Global Serial Number: 
+Mutex serialNumberLock ensures serial numbers are unique and incremented correctly
+
+- Account Balance and Log: 
+Each Account object has an accountLock mutex that protects both 
+the balance and the log during transfers
+
+- Transfer Operation: 
+The source and destination accounts are locked in a fixed order 
+(to prevent deadlocks) during a transfer operation
+
+- Consistency Check: 
+All accounts are locked during a consistency check to prevent operations from interfering
+with the check
